@@ -81,7 +81,7 @@ ul {
     font-size: 18px;
 }
 
-button {
+.signup-button {
     width: 128px;
     padding: 6px;
     background-color: #3882f6;
@@ -91,6 +91,7 @@ button {
     border: none;
     font-size: 18px;
     font-weight: 600;
+    height: 40px;
 }
 
 .content-title {
@@ -102,4 +103,114 @@ button {
 
 .content-paragraph {
     font-size: 18px;
+}
+
+.third-section  {
+    background-color: white;
+    padding-top: 32px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-image-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 170px;
+}
+
+.square-button {
+    height: 170px;
+    width: 100%;
+    border-radius: 12px;
+    border: 5px solid #3882f6;
+    background-color: white;
+
+}
+
+.small-para {
+    margin-top: 2px;
+    color: #363636;
+}
+
+.fourth-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    padding-top: 64px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    align-self: flex-end;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 50;
+    margin-bottom: 8px;
+}
+
+
+.fifth-section {
+    background-color: white;
+}
+
+.white-border {
+    border: 5px solid white;
+}
+
+.button-container {
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 52px;
+    display: flex;
+    margin-top: 84px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h4 {
+    color: white;
+    font-size: 24px;
+    font-weight: 800px;
+    margin: 0;
+}
+
+.content-paragraph-two{
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+
+.footer {
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
